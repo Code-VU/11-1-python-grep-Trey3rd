@@ -13,7 +13,7 @@ def countpatterninfile():
         line = line.rstrip()
         if re.findall(regular_expression, line) != []:
             found += 1
-    print ("mbox.txt had " + str(found) + " lines that matched" + regular_expression)
+    print ("mbox.txt had " + str(found) + " lines that matched " + regular_expression)
 
 if __name__ == '__main__':
     # this is called a main method
